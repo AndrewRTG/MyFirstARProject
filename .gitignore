@@ -114,3 +114,9 @@ InitTestScene*.unity*
 /Laborator02/*.csproj
 /Laborator02/*.sln
 /Laborator02/*.slnx
+# Ignore Lab01 files on the Lab02 branch
+/Assets/
+/Packages/
+/ProjectSettings/
+/QCAR/
+/.vscode/
