@@ -104,3 +104,13 @@ InitTestScene*.unity*
 
 # Auto-generated cache in Assets folder
 /[Aa]ssets/[Ss]ceneDependencyCache*
+# Ignore generated files from the Lab02 Unity project
+/Laborator02/Library/
+/Laborator02/Temp/
+/Laborator02/Logs/
+/Laborator02/Obj/
+/Laborator02/UserSettings/
+/Laborator02/.vs/
+/Laborator02/*.csproj
+/Laborator02/*.sln
+/Laborator02/*.slnx
