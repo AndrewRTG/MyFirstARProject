@@ -8,8 +8,8 @@ using UnityEngine.XR.Interaction.Toolkit.Interactables;
 public class BasketballThrow : MonoBehaviour
 {
     [Header("Throw Settings")]
-    [SerializeField] private float throwForce = 10f;
-    [SerializeField] private float upwardForce = 5f;
+    [SerializeField] private float throwForce = 9f;
+    [SerializeField] private float upwardForce = 4f;
     [SerializeField] private Transform playerCamera;
 
     private Rigidbody rb;
@@ -33,12 +33,6 @@ public class BasketballThrow : MonoBehaviour
 
         if (Keyboard.current.spaceKey.wasPressedThisFrame)
         {
-            Debug.Log("SPACE pressed!");
-
-            Debug.Log("Ball grabbed: " + grabInteractable.isSelected);
-
-            Debug.Log("Camera assigned: " + (playerCamera != null));
-
             if (grabInteractable.isSelected && playerCamera != null)
             {
                 ThrowBall();
